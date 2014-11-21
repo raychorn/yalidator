@@ -1,0 +1,73 @@
+2014-11-20 21:37:35,874 - yalidator1.0.0.0 - INFO - yalidator v1.0.0.0
+2014-11-20 21:37:35,881 - yalidator1.0.0.0 - INFO - DEBUG: _isVerbose=True
+2014-11-20 21:37:35,881 - yalidator1.0.0.0 - INFO - DEBUG: __input__=infrastructure.yml
+2014-11-20 21:37:35,944 - yalidator1.0.0.0 - INFO - input is infrastructure.yml
+2014-11-20 21:37:35,947 - yalidator1.0.0.0 - INFO - BEGIN:
+2014-11-20 21:37:35,947 - yalidator1.0.0.0 - INFO - __is__ is True
+2014-11-20 21:37:36,029 - yalidator1.0.0.0 - ERROR - FAILED:  Please correct your YAML and try again. Check for TABS and Special Chars.
+2014-11-20 21:37:36,030 - yalidator1.0.0.0 - ERROR - EXCEPTION: while scanning for the next token
+found character '\t' that cannot start any token
+  in "infrastructure.yml", line 903, column 1
+(<module>) :: "while scanning for the next token
+found character '\t' that cannot start any token
+  in "infrastructure.yml", line 903, column 1". Traceback (most recent call last):
+
+  File "yalidator.py", line 186, in <module>
+
+  File "yaml\__init__.pyo", line 71, in load
+
+  File "yaml\constructor.pyo", line 37, in get_single_data
+
+  File "yaml\composer.pyo", line 36, in get_single_node
+
+  File "yaml\composer.pyo", line 55, in compose_document
+
+  File "yaml\composer.pyo", line 84, in compose_node
+
+  File "yaml\composer.pyo", line 133, in compose_mapping_node
+
+  File "yaml\composer.pyo", line 82, in compose_node
+
+  File "yaml\composer.pyo", line 111, in compose_sequence_node
+
+  File "yaml\composer.pyo", line 84, in compose_node
+
+  File "yaml\composer.pyo", line 133, in compose_mapping_node
+
+  File "yaml\composer.pyo", line 82, in compose_node
+
+  File "yaml\composer.pyo", line 110, in compose_sequence_node
+
+  File "yaml\parser.pyo", line 98, in check_event
+
+  File "yaml\parser.pyo", line 403, in parse_indentless_sequence_entry
+
+  File "yaml\scanner.pyo", line 116, in check_token
+
+  File "yaml\scanner.pyo", line 257, in fetch_more_tokens
+
+ScannerError: while scanning for the next token
+found character '\t' that cannot start any token
+  in "infrastructure.yml", line 903, column 1
+Traceback (most recent call last):
+  File "yalidator.py", line 186, in <module>
+  File "yaml\__init__.pyo", line 71, in load
+  File "yaml\constructor.pyo", line 37, in get_single_data
+  File "yaml\composer.pyo", line 36, in get_single_node
+  File "yaml\composer.pyo", line 55, in compose_document
+  File "yaml\composer.pyo", line 84, in compose_node
+  File "yaml\composer.pyo", line 133, in compose_mapping_node
+  File "yaml\composer.pyo", line 82, in compose_node
+  File "yaml\composer.pyo", line 111, in compose_sequence_node
+  File "yaml\composer.pyo", line 84, in compose_node
+  File "yaml\composer.pyo", line 133, in compose_mapping_node
+  File "yaml\composer.pyo", line 82, in compose_node
+  File "yaml\composer.pyo", line 110, in compose_sequence_node
+  File "yaml\parser.pyo", line 98, in check_event
+  File "yaml\parser.pyo", line 403, in parse_indentless_sequence_entry
+  File "yaml\scanner.pyo", line 116, in check_token
+  File "yaml\scanner.pyo", line 257, in fetch_more_tokens
+ScannerError: while scanning for the next token
+found character '\t' that cannot start any token
+  in "infrastructure.yml", line 903, column 1
+2014-11-20 21:37:36,094 - yalidator1.0.0.0 - INFO - END!
